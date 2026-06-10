@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Deriv Analysis Dashboard</title>
+<title>Primenest Analysis Dashboard</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -177,22 +177,12 @@ footer{text-align:center;padding:12px;font-size:9px;color:var(--txt3);border-top
 <div id="loginScreen">
   <div class="lbox">
     <div class="llogo">📊</div>
-    <div class="ltitle">Deriv Analysis Dashboard</div>
+    <div class="ltitle">Primenest Analysis Dashboard</div>
     <div class="lsub">Connect your Deriv account for live market data and AI-powered signal analysis.<br><strong style="color:var(--txt);">No trades are placed automatically.</strong></div>
     <button class="lbtn" onclick="startOAuth()">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
       Login with Deriv
     </button>
-    <div class="ldiv"><span>or</span></div>
-    <button class="dbtn" onclick="startDemo()">⚡ Continue without login (market data only)</button>
-    <div class="lnote">
-      OAuth redirects back to this tool automatically.<br>
-      <strong style="color:var(--txt);">One-time setup required:</strong><br>
-      Go to <a href="https://api.deriv.com/app-registration" target="_blank">api.deriv.com/app-registration</a> → your app → Edit →
-      set <strong style="color:var(--nb);">Redirect URI</strong> to:<br>
-      <span style="color:var(--g);font-family:'JetBrains Mono',monospace;font-size:10px;word-break:break-all;">https://papi454.github.io/primenestanalysistool.com/</span><br>
-      Save, then login here. You only need to do this once.
-    </div>
   </div>
 </div>
 
